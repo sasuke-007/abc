@@ -1,0 +1,109 @@
+@media only screen and (max-width:600px){
+    form{
+        width: 100%;
+    }
+}
+
+body{
+    max-width: 940px;
+    min-width: 4px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(50, 189, 50);
+    font-size: 5em;
+}
+
+
+form{
+    width: 500px;
+    padding: 10px;
+    margin: 5px auto;
+    text-align: center;
+}
+
+button{
+    
+}
+
+input{
+    text-align: center;
+    padding: 3px;
+    margin: 3px;
+    font-size: 1em;
+    background-color: rgb(190, 64, 64);
+}
+
+input:focus{
+    border-color: royalblue ;
+    background-color: rgb(190, 225, 65);
+}
+
+input:hover{
+    background-color: aqua;
+    
+}
+
+/* button{
+    padding: 5px;
+    margin: 3px;
+    font-size: 1em;
+    background-color: royalblue;
+    color: white; 
+    border-radius: 5px;
+    position: relative;
+    left: 39px;
+} */
+
+label{
+    display: inline-block;
+    width: 80px;
+}
+
+
+a{
+    border: 1px solid rebeccapurple;
+    padding: 3px;
+    margin: 6em;
+    font-size: 1em;
+    background-color: royalblue;
+    color: white; 
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    top: 5px;
+    left: 35px;
+}
+
+
+.main{
+    font-size: 13px;
+    background-color: royalblue;
+    color: white;
+    font-size: 1em;
+    position: relative;
+    left: 39px;
+}
+
+
+
+div{
+    border: 2px solid rgb(11, 9, 121);
+    padding: 30px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+div.box {
+        height: 300px;
+        width: 300px;
+        background-color: royalblue;
+        height: fit-content;
+}
+   
+
+
+
+
