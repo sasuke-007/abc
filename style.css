@@ -1,48 +1,45 @@
+body{
+    background-color: #163535;
+    /* text-align: center; */
+    background-image: url(page1.jpg) ;
+    background-repeat: no-repeat;
+}
+
+
+
+section{
+    width: 100%;
+    /* background-color: snow; */
+}
+
 h1{
-    color: rgb(156, 165, 165);
-    text-align: center;
-    font-size: 50px;
-}  
-form{
-    width: 350px;
+    color: rgb(0, 0, 0);
+    margin-top: 5%;
     padding: 10px;
-    margin: 10px  auto;
-}
-div{
-    padding: 40px;
+    font-family: sans-serif;
     text-align: center;
-    background-color: whitesmoke;
+    font-size: 40px;
 }
-label{
-    font-size: 21px;
-    display: inline-block;
-    width: 150px;
+li{
+    text-align: center;
+    list-style: none;
 }
-input{
+a{
+    background-color: aliceblue;
+    font-family: sans-serif;
+    border-radius: 20px;
+    font-size: 30px;
     padding: 5px;
-    margin: 5px;
-    background-color: rgb(174, 172, 196);
-    font-size: 1em;
-    text-align: center;
-} 
-
-
-input:hover{
-    background-color: rgb(145, 142, 184) ;
+    text-decoration: none;
 }
-input:focus{
-    background-color: rgb(125, 122, 175) ;
+
+a:hover{
+    color: royalblue;
+    background-color: aqua;
+}
     
-}
-
-
-.main:hover{
-    background-color: rgb(110, 146, 146);
-
-}
 
 
 
 
-
-
+   
